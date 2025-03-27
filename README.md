@@ -1,14 +1,37 @@
+---
+home: True
+layout: BlogHome
+heroFullScreen: true
+bgImage: M4.png
+icon: home
+title: 233'notes
+author: 咸鱼型233
+heroImage: logo.svg
+heroText: 233's notes
+tagline: 233的学习随笔
+copyright: false
+footer: 拾掇拾掇过往经验
+---
 # VuePressTemplate
+
+- [VuePressTemplate](#vuepresstemplate)
+  - [简易部署流程](#简易部署流程)
+  - [简易编写说明](#简易编写说明)
+  - [首页博客样式](#首页博客样式)
+
+---
 
 参阅 [VuePressTemplate / 简易部署流程](https://233official.github.io/VuePressTemplate/) 食用～
 
 自动部署展示页面: [VuePressTemplate](https://233official.github.io/VuePressTemplate/)
 
+> 原始手动从头构建仓库的说明在 [此处](https://233official.github.io/dailynotes/NoteTools/VuePress.html#pnpm-github-actions-github-gitlab-pages-%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3)
+
 ---
 
 ## 简易部署流程
 
-使用此仓库创建 Repo
+使用[此仓库](https://github.com/233Official/VuePressTemplate)创建 Repo
 
 ![image-20250103134807816](http://cdn.ayusummer233.top/DailyNotes/202501031348058.png)
 
@@ -104,7 +127,27 @@ pnpm docs:dev
 
 ---
 
+## 首页博客样式
+
+VuePress Theme Hope 主题有对博客的支持，详情可参阅 [VuePress Theme Hope/指南/博客/博客功能介绍](https://theme-hope.vuejs.press/zh/guide/blog/intro.html)
+
+类似下面这种首页博客样式：
+
+![image-20250327173241614](http://cdn.ayusummer233.top/DailyNotes/202503271732864.png)
+
+![image-20250327173257328](http://cdn.ayusummer233.top/DailyNotes/202503271733221.png)
+
+只需要配置 `docs/README.md` 中的如下红框部分的样式内容即可，具体可参阅 `https://github.com/233Official/dailynotes/blob/main/docs/README.md`
+
+![image-20250327173357441](http://cdn.ayusummer233.top/DailyNotes/202503271733521.png)
+
+额外的博客样式比如如下标签之类的需要在 `docs/.vuepress/theme.ts` 中进行配置，具体可参阅 `https://github.com/233Official/dailynotes/blob/main/docs/.vuepress/theme.ts`
+
+![image-20250327173523303](http://cdn.ayusummer233.top/DailyNotes/202503271735384.png)
 
 
 
+![image-20250327173933184](http://cdn.ayusummer233.top/DailyNotes/202503271739269.png)
+
+---
 

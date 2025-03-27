@@ -27,7 +27,15 @@ export default hopeTheme({
   // 页脚
   displayFooter: true,
 
-
+  blog: {
+    description: "个人描述",
+    intro: "/about/",
+    medias: {
+      GitHub: "https://github.com/233Official",
+      Rss: "https://233official.github.io/dailynotes/atom.xml",
+      BiliBili: "https://space.bilibili.com/85033246",
+    },
+  },
 
   // 仓库链接
   repo: "233Official/dailynotes",
