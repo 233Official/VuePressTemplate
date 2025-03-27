@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://233official.github.io/VuePressTemplate/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <id>https://233official.github.io/VuePressTemplate/</id>
+  <title>DailyNotes</title>
+  <subtitle>233的日常学习记录</subtitle>
+  <icon>https://233official.github.io/VuePressTemplate/favicon.ico</icon>
+  <updated>2025-03-27T09:58:57.711Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://233official.github.io/VuePressTemplate/atom.xml"/>
+  <link rel="alternate" href="https://233official.github.io/VuePressTemplate/"/>
+  <entry>
+    <title type="text">Markdown</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/Markdown.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/Markdown.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#markdown">Markdown</a>
+<ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">基础语法</a>
+<ul>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87">图片</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E5%88%86%E9%A1%B5%E7%AC%A6">分页符</a></li>
+<li><a href="#html">html</a>
+<ul>
+<li><a href="#%E6%8E%92%E7%89%88">排版</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93%E7%B1%BB%E5%9E%8B%E4%B8%8E%E9%A2%9C%E8%89%B2">字体类型与颜色</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">插入数学公式</a>
+<ul>
+<li><a href="#%E5%85%AC%E5%BC%8F%E5%86%85%E9%83%A8%E6%89%93%E7%A9%BA%E6%A0%BC">公式内部打空格</a></li>
+<li><a href="#%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F%E7%AD%89%E5%8F%B7%E5%AF%B9%E9%BD%90">多行公式等号对齐</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9F%A9%E9%98%B5">矩阵</a></li>
+</ul>
+</li>
+<li><a href="#markdown-%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6">Markdown 编辑软件</a>
+<ul>
+<li><a href="#typora">Typora</a>
+<ul>
+<li><a href="#%E9%85%8D%E7%BD%AE%E9%A1%B9%E6%8E%A8%E8%8D%90">配置项推荐</a>
+<ul>
+<li><a href="#%E5%A4%96%E8%A7%82">外观</a>
+<ul>
+<li><a href="#%E7%AA%97%E5%8F%A3%E6%A0%B7%E5%BC%8F">窗口样式</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F">字体大小</a></li>
+<li><a href="#%E7%8A%B6%E6%80%81%E6%A0%8F">状态栏</a></li>
+<li><a href="#%E9%98%85%E8%AF%BB%E9%80%9F%E5%BA%A6">阅读速度</a></li>
+<li><a href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F">侧边栏</a></li>
+<li><a href="#%E4%B8%BB%E9%A2%98">主题</a></li>
+</ul>
+</li>
+<li><a href="#%E9%80%9A%E7%94%A8">通用</a>
+<ul>
+<li><a href="#%E5%90%AF%E5%8A%A8%E9%80%89%E9%A1%B9">启动选项</a></li>
+<li><a href="#%E4%BF%9D%E5%AD%98%E4%B8%8E%E6%81%A2%E5%A4%8D">保存与恢复</a></li>
+<li><a href="#%E8%AF%AD%E8%A8%80">语言</a></li>
+<li><a href="#%E6%9B%B4%E6%96%B0">更新</a></li>
+<li><a href="#%E8%AE%B8%E5%8F%AF%E8%AF%81%E4%BF%A1%E6%81%AF">许可证信息</a></li>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE">快捷键</a></li>
+<li><a href="#%E5%AF%B9%E8%AF%9D%E6%A1%86">对话框</a></li>
+<li><a href="#%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE">高级设置</a></li>
+<li><a href="#typora-%E6%9C%8D%E5%8A%A1%E5%99%A8">Typora 服务器</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a></li>
+<li><a href="#%E5%9B%BE%E5%83%8F">图像</a>
+<ul>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%9B%BE%E5%83%8F">本地图像</a></li>
+<li><a href="#%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A">个人图床</a></li>
+</ul>
+</li>
+<li><a href="#markdown-1">Markdown</a></li>
+<li><a href="#%E5%AF%BC%E5%87%BA">导出</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">主题推荐</a>
+<ul>
+<li><a href="#%E5%AF%BC%E5%87%BA-pdf-%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">导出 PDF 主题推荐</a></li>
+<li><a href="#%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">深色主题推荐</a></li>
+<li><a href="#%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">浅色主题推荐</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#image-load-failed">image load failed</a></li>
+<li><a href="#%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%AF%BC%E5%87%BApdf">无法正常导出PDF</a></li>
+<li><a href="#%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%B1%80%E5%9F%9F%E7%BD%91https%E5%9B%BE%E7%89%87">无法显示局域网https图片</a></li>
+</ul>
+</li>
+<li><a href="#latex-%E7%9B%B8%E5%85%B3">LaTeX 相关</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9C%A8-vscode-%E4%B8%AD%E7%BC%96%E8%BE%91-markdown-%E6%96%87%E4%BB%B6">在 VSCode 中编辑 Markdown 文件</a>
+<ul>
+<li><a href="#markdown-all-in-one">Markdown All in One</a></li>
+<li><a href="#markdown-preview-enhanced">Markdown Preview Enhanced</a></li>
+</ul>
+</li>
+<li><a href="#vnote">vnote</a></li>
+</ul>
+</li>
+<li><a href="#%E5%B7%A5%E5%85%B7">工具</a>
+<ul>
+<li><a href="#%E5%9B%BE%E5%BA%8A">图床</a>
+<ul>
+<li><a href="#%E4%B8%83%E7%89%9B%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8">七牛云对象存储</a></li>
+<li><a href="#nextcloudpicgo">Nextcloud+Picgo</a></li>
+<li><a href="#gitlabpicgo">Gitlab+Picgo</a></li>
+</ul>
+</li>
+<li><a href="#picgo">PicGo</a>
+<ul>
+<li><a href="#picgo-%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E4%BD%86%E6%98%AF%E4%BC%A0%E4%B8%8D%E4%B8%8A%E5%8E%BB%E5%9B%BE%E7%89%87">PicGo 设置正确但是传不上去图片</a></li>
+<li><a href="#%E7%BB%A7%E7%BB%AD%E9%85%8D%E5%90%88-sharex-%E4%BD%BF%E7%94%A8">继续配合 ShareX 使用</a></li>
+</ul>
+</li>
+<li><a href="#pandoc">Pandoc</a></li>
+<li><a href="#reveal-md">reveal-md</a></li>
+<li><a href="#codimd">CodiMD</a>
+<ul>
+<li><a href="#%E9%83%A8%E7%BD%B2">部署</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#something-interesting">something interesting</a>
+<ul>
+<li><a href="#%E5%BE%BD%E7%AB%A0">徽章</a></li>
+<li><a href="#markdown--pandoc-%E5%86%99%E8%AE%BA%E6%96%87">markdown + pandoc 写论文</a>
+<ul>
+<li><a href="#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-zotero">文献管理工具: Zotero</a></li>
+<li><a href="#better-bibtex">Better BibTex</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#markdown">Markdown</a>
+<ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">基础语法</a>
+<ul>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87">图片</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E5%88%86%E9%A1%B5%E7%AC%A6">分页符</a></li>
+<li><a href="#html">html</a>
+<ul>
+<li><a href="#%E6%8E%92%E7%89%88">排版</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93%E7%B1%BB%E5%9E%8B%E4%B8%8E%E9%A2%9C%E8%89%B2">字体类型与颜色</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">插入数学公式</a>
+<ul>
+<li><a href="#%E5%85%AC%E5%BC%8F%E5%86%85%E9%83%A8%E6%89%93%E7%A9%BA%E6%A0%BC">公式内部打空格</a></li>
+<li><a href="#%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F%E7%AD%89%E5%8F%B7%E5%AF%B9%E9%BD%90">多行公式等号对齐</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9F%A9%E9%98%B5">矩阵</a></li>
+</ul>
+</li>
+<li><a href="#markdown-%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6">Markdown 编辑软件</a>
+<ul>
+<li><a href="#typora">Typora</a>
+<ul>
+<li><a href="#%E9%85%8D%E7%BD%AE%E9%A1%B9%E6%8E%A8%E8%8D%90">配置项推荐</a>
+<ul>
+<li><a href="#%E5%A4%96%E8%A7%82">外观</a>
+<ul>
+<li><a href="#%E7%AA%97%E5%8F%A3%E6%A0%B7%E5%BC%8F">窗口样式</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F">字体大小</a></li>
+<li><a href="#%E7%8A%B6%E6%80%81%E6%A0%8F">状态栏</a></li>
+<li><a href="#%E9%98%85%E8%AF%BB%E9%80%9F%E5%BA%A6">阅读速度</a></li>
+<li><a href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F">侧边栏</a></li>
+<li><a href="#%E4%B8%BB%E9%A2%98">主题</a></li>
+</ul>
+</li>
+<li><a href="#%E9%80%9A%E7%94%A8">通用</a>
+<ul>
+<li><a href="#%E5%90%AF%E5%8A%A8%E9%80%89%E9%A1%B9">启动选项</a></li>
+<li><a href="#%E4%BF%9D%E5%AD%98%E4%B8%8E%E6%81%A2%E5%A4%8D">保存与恢复</a></li>
+<li><a href="#%E8%AF%AD%E8%A8%80">语言</a></li>
+<li><a href="#%E6%9B%B4%E6%96%B0">更新</a></li>
+<li><a href="#%E8%AE%B8%E5%8F%AF%E8%AF%81%E4%BF%A1%E6%81%AF">许可证信息</a></li>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE">快捷键</a></li>
+<li><a href="#%E5%AF%B9%E8%AF%9D%E6%A1%86">对话框</a></li>
+<li><a href="#%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE">高级设置</a></li>
+<li><a href="#typora-%E6%9C%8D%E5%8A%A1%E5%99%A8">Typora 服务器</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a></li>
+<li><a href="#%E5%9B%BE%E5%83%8F">图像</a>
+<ul>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%9B%BE%E5%83%8F">本地图像</a></li>
+<li><a href="#%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A">个人图床</a></li>
+</ul>
+</li>
+<li><a href="#markdown-1">Markdown</a></li>
+<li><a href="#%E5%AF%BC%E5%87%BA">导出</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">主题推荐</a>
+<ul>
+<li><a href="#%E5%AF%BC%E5%87%BA-pdf-%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">导出 PDF 主题推荐</a></li>
+<li><a href="#%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">深色主题推荐</a></li>
+<li><a href="#%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90">浅色主题推荐</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#image-load-failed">image load failed</a></li>
+<li><a href="#%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%AF%BC%E5%87%BApdf">无法正常导出PDF</a></li>
+<li><a href="#%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%B1%80%E5%9F%9F%E7%BD%91https%E5%9B%BE%E7%89%87">无法显示局域网https图片</a></li>
+</ul>
+</li>
+<li><a href="#latex-%E7%9B%B8%E5%85%B3">LaTeX 相关</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9C%A8-vscode-%E4%B8%AD%E7%BC%96%E8%BE%91-markdown-%E6%96%87%E4%BB%B6">在 VSCode 中编辑 Markdown 文件</a>
+<ul>
+<li><a href="#markdown-all-in-one">Markdown All in One</a></li>
+<li><a href="#markdown-preview-enhanced">Markdown Preview Enhanced</a></li>
+</ul>
+</li>
+<li><a href="#vnote">vnote</a></li>
+</ul>
+</li>
+<li><a href="#%E5%B7%A5%E5%85%B7">工具</a>
+<ul>
+<li><a href="#%E5%9B%BE%E5%BA%8A">图床</a>
+<ul>
+<li><a href="#%E4%B8%83%E7%89%9B%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8">七牛云对象存储</a></li>
+<li><a href="#nextcloudpicgo">Nextcloud+Picgo</a></li>
+<li><a href="#gitlabpicgo">Gitlab+Picgo</a></li>
+</ul>
+</li>
+<li><a href="#picgo">PicGo</a>
+<ul>
+<li><a href="#picgo-%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E4%BD%86%E6%98%AF%E4%BC%A0%E4%B8%8D%E4%B8%8A%E5%8E%BB%E5%9B%BE%E7%89%87">PicGo 设置正确但是传不上去图片</a></li>
+<li><a href="#%E7%BB%A7%E7%BB%AD%E9%85%8D%E5%90%88-sharex-%E4%BD%BF%E7%94%A8">继续配合 ShareX 使用</a></li>
+</ul>
+</li>
+<li><a href="#pandoc">Pandoc</a></li>
+<li><a href="#reveal-md">reveal-md</a></li>
+<li><a href="#codimd">CodiMD</a>
+<ul>
+<li><a href="#%E9%83%A8%E7%BD%B2">部署</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#something-interesting">something interesting</a>
+<ul>
+<li><a href="#%E5%BE%BD%E7%AB%A0">徽章</a></li>
+<li><a href="#markdown--pandoc-%E5%86%99%E8%AE%BA%E6%96%87">markdown + pandoc 写论文</a>
+<ul>
+<li><a href="#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-zotero">文献管理工具: Zotero</a></li>
+<li><a href="#better-bibtex">Better BibTex</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Mermaid</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/Mermaid.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/Mermaid.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#mermaid">Mermaid</a>
+<ul>
+<li><a href="#%E7%BB%93%E7%82%B9%E5%86%85%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C">结点内文字换行</a></li>
+<li><a href="#%E9%99%90%E5%88%B6%E6%B5%81%E7%A8%8B%E5%9B%BE%E5%A4%A7%E5%B0%8F">限制流程图大小</a></li>
+<li><a href="#%E6%98%BE%E7%A4%BA%E6%94%AF%E6%8C%81">显示支持</a></li>
+<li><a href="#%E7%94%98%E7%89%B9%E5%9B%BE">甘特图</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a>
+<ul>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%95%B4%E4%BD%93%E6%96%B9%E5%90%91">流程图整体方向</a></li>
+<li><a href="#%E7%BB%93%E7%82%B9%E5%BD%A2%E7%8A%B6">结点形状</a></li>
+<li><a href="#%E8%BF%9E%E6%8E%A5%E7%BA%BF%E5%BD%A2%E7%8A%B6">连接线形状</a></li>
+<li><a href="#%E8%AF%AD%E6%B3%95%E5%86%B2%E7%AA%81%E7%9A%84%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6">语法冲突的特殊字符</a></li>
+</ul>
+</li>
+<li><a href="#%E6%97%B6%E5%BA%8F%E5%9B%BE">时序图</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#mermaid">Mermaid</a>
+<ul>
+<li><a href="#%E7%BB%93%E7%82%B9%E5%86%85%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C">结点内文字换行</a></li>
+<li><a href="#%E9%99%90%E5%88%B6%E6%B5%81%E7%A8%8B%E5%9B%BE%E5%A4%A7%E5%B0%8F">限制流程图大小</a></li>
+<li><a href="#%E6%98%BE%E7%A4%BA%E6%94%AF%E6%8C%81">显示支持</a></li>
+<li><a href="#%E7%94%98%E7%89%B9%E5%9B%BE">甘特图</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a>
+<ul>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%95%B4%E4%BD%93%E6%96%B9%E5%90%91">流程图整体方向</a></li>
+<li><a href="#%E7%BB%93%E7%82%B9%E5%BD%A2%E7%8A%B6">结点形状</a></li>
+<li><a href="#%E8%BF%9E%E6%8E%A5%E7%BA%BF%E5%BD%A2%E7%8A%B6">连接线形状</a></li>
+<li><a href="#%E8%AF%AD%E6%B3%95%E5%86%B2%E7%AA%81%E7%9A%84%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6">语法冲突的特殊字符</a></li>
+</ul>
+</li>
+<li><a href="#%E6%97%B6%E5%BA%8F%E5%9B%BE">时序图</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Notion</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/Notion.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/Notion.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>进度条</h2>
+<blockquote>
+<p><a href="https://client.sspai.com/post/75271" target="_blank" rel="noopener noreferrer">如何使用 Notion 原生的进度条？ - 少数派 (sspai.com)</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/621811139" target="_blank" rel="noopener noreferrer">Notion 使用教程：如何创建Notion进度条，让数据看得见 - 知乎 (zhihu.com)</a></p>
+</blockquote>]]></summary>
+    <content type="html"><![CDATA[
+<h2>进度条</h2>
+<blockquote>
+<p><a href="https://client.sspai.com/post/75271" target="_blank" rel="noopener noreferrer">如何使用 Notion 原生的进度条？ - 少数派 (sspai.com)</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/621811139" target="_blank" rel="noopener noreferrer">Notion 使用教程：如何创建Notion进度条，让数据看得见 - 知乎 (zhihu.com)</a></p>
+</blockquote>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">PlantUML</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/PlantUML.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/PlantUML.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p><a href="https://plantuml.com/zh/" target="_blank" rel="noopener noreferrer">官方中文教程</a></p>
+</blockquote>
+<ul>
+<li><a href="#plantuml">PlantUML</a>
+<ul>
+<li><a href="#work-breakdown-structure-wbs">Work Breakdown Structure (WBS)</a></li>
+<li><a href="#orgmode-syntax">OrgMode syntax</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p><a href="https://plantuml.com/zh/" target="_blank" rel="noopener noreferrer">官方中文教程</a></p>
+</blockquote>
+<ul>
+<li><a href="#plantuml">PlantUML</a>
+<ul>
+<li><a href="#work-breakdown-structure-wbs">Work Breakdown Structure (WBS)</a></li>
+<li><a href="#orgmode-syntax">OrgMode syntax</a></li>
+</ul>
+</li>
+</ul>
+<h2>Work Breakdown Structure (WBS)</h2>
+<blockquote>
+<p><a href="https://wiki.mbalib.com/wiki/%E5%B7%A5%E4%BD%9C%E5%88%86%E8%A7%A3%E7%BB%93%E6%9E%84" target="_blank" rel="noopener noreferrer">工作分解结构</a></p>
+<p><a href="https://plantuml.com/zh/wbs-diagram" target="_blank" rel="noopener noreferrer">官方教程</a></p>
+<p>WBS diagram are still in beta: the syntax may change without notice.</p>
+</blockquote>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">VitePress</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/VitePress.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/VitePress.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p><a href="https://github.com/vuejs/vitepress" target="_blank" rel="noopener noreferrer">vuejs/vitepress: Vite &amp; Vue powered static site generator. (github.com)</a></p>
+<p><a href="https://vitepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VitePress | Vite &amp; Vue Powered Static Site Generator (vuejs.org)</a></p>
+<p><a href="https://vitejs.cn/vitepress/" target="_blank" rel="noopener noreferrer">什么是 VitePress？ | VitePress中文网 (vitejs.cn)</a></p>
+<hr>
+</blockquote>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p><a href="https://github.com/vuejs/vitepress" target="_blank" rel="noopener noreferrer">vuejs/vitepress: Vite &amp; Vue powered static site generator. (github.com)</a></p>
+<p><a href="https://vitepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VitePress | Vite &amp; Vue Powered Static Site Generator (vuejs.org)</a></p>
+<p><a href="https://vitejs.cn/vitepress/" target="_blank" rel="noopener noreferrer">什么是 VitePress？ | VitePress中文网 (vitejs.cn)</a></p>
+</blockquote>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">VuePress</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/VuePress.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/VuePress.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#vuepress">VuePress</a>
+<ul>
+<li><a href="#pnpmgithub-actions-githubgitlab-pages-%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3">pnpm,Github Actions, Github/Gitlab Pages 自动化部署文档</a></li>
+<li><a href="#%E9%85%8D%E5%90%88-vuepress_theme_hope-%E9%A3%9F%E7%94%A8">配合 vuepress_theme_hope 食用</a>
+<ul>
+<li><a href="#%E6%90%9C%E7%B4%A2">搜索</a></li>
+<li><a href="#sitemap">sitemap</a></li>
+<li><a href="#seo">SEO</a></li>
+<li><a href="#feed">Feed</a></li>
+<li><a href="#%E6%A1%88%E4%BE%8B">案例</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#vuepress-error-enospc-system-limit-for-number-of-file-watchers-reach"><code>Vuepress Error: ENOSPC: System limit for number of file watchers reach</code></a></li>
+<li><a href="#package-katex-is-not-installed">Package katex is not installed</a></li>
+</ul>
+</li>
+<li><a href="#%E8%B0%83%E8%AF%95">调试</a>
+<ul>
+<li><a href="#%E4%BE%9D%E8%B5%96%E8%B0%83%E8%AF%95">依赖调试</a></li>
+</ul>
+</li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E5%A4%87%E4%BB%BD">配置备份</a>
+<ul>
+<li><a href="#vuepress-theme-hope-200-beta222">vuepress-theme-hope-2.0.0-beta.222</a></li>
+<li><a href="#vuepress-theme-hope-200-rc27">vuepress-theme-hope-2.0.0-rc.27</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#vuepress">VuePress</a>
+<ul>
+<li><a href="#pnpmgithub-actions-githubgitlab-pages-%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3">pnpm,Github Actions, Github/Gitlab Pages 自动化部署文档</a></li>
+<li><a href="#%E9%85%8D%E5%90%88-vuepress_theme_hope-%E9%A3%9F%E7%94%A8">配合 vuepress_theme_hope 食用</a>
+<ul>
+<li><a href="#%E6%90%9C%E7%B4%A2">搜索</a></li>
+<li><a href="#sitemap">sitemap</a></li>
+<li><a href="#seo">SEO</a></li>
+<li><a href="#feed">Feed</a></li>
+<li><a href="#%E6%A1%88%E4%BE%8B">案例</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#vuepress-error-enospc-system-limit-for-number-of-file-watchers-reach"><code>Vuepress Error: ENOSPC: System limit for number of file watchers reach</code></a></li>
+<li><a href="#package-katex-is-not-installed">Package katex is not installed</a></li>
+</ul>
+</li>
+<li><a href="#%E8%B0%83%E8%AF%95">调试</a>
+<ul>
+<li><a href="#%E4%BE%9D%E8%B5%96%E8%B0%83%E8%AF%95">依赖调试</a></li>
+</ul>
+</li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E5%A4%87%E4%BB%BD">配置备份</a>
+<ul>
+<li><a href="#vuepress-theme-hope-200-beta222">vuepress-theme-hope-2.0.0-beta.222</a></li>
+<li><a href="#vuepress-theme-hope-200-rc27">vuepress-theme-hope-2.0.0-rc.27</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>pnpm,Github Actions, Github/Gitlab Pages 自动化部署文档</h2>
+<blockquote>
+<p><a href="https://v2.vuepress.vuejs.org/zh/guide/getting-started.html" target="_blank" rel="noopener noreferrer">快速上手 | VuePress (vuejs.org)</a></p>
+</blockquote>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">论文</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/Word.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/Word.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>参考文献及引用</h2>
+<blockquote>
+<p><a href="https://www.bilibili.com/video/BV1dL4y1u7dz?spm_id_from=333.999.0.0" target="_blank" rel="noopener noreferrer">参考文献怎么引用学位论文如何引用，论文引用格式和规则是什么，怎么引用才会被知网查重识别?_哔哩哔哩_bilibili</a></p>
+<p><a href="https://www.bilibili.com/video/BV1aq4y137mT?spm_id_from=333.337.search-card.all.click" target="_blank" rel="noopener noreferrer">毕业论文怎样快速设置正确的参考文献格式？_哔哩哔哩_bilibili</a></p>
+</blockquote>]]></summary>
+    <content type="html"><![CDATA[
+<h2>参考文献及引用</h2>
+<blockquote>
+<p><a href="https://www.bilibili.com/video/BV1dL4y1u7dz?spm_id_from=333.999.0.0" target="_blank" rel="noopener noreferrer">参考文献怎么引用学位论文如何引用，论文引用格式和规则是什么，怎么引用才会被知网查重识别?_哔哩哔哩_bilibili</a></p>
+<p><a href="https://www.bilibili.com/video/BV1aq4y137mT?spm_id_from=333.337.search-card.all.click" target="_blank" rel="noopener noreferrer">毕业论文怎样快速设置正确的参考文献格式？_哔哩哔哩_bilibili</a></p>
+</blockquote>
+<h3>从知网导出文献目录</h3>
+<p>知网中选择若干文献导出题录,复制到剪贴板后粘贴到参考文献栏中</p>
+<p><img src="http://cdn.ayusummer233.top/img/202205192230018.png" alt="image-20220519223001874"></p>
+<p><img src="http://cdn.ayusummer233.top/img/202205192230057.png" alt="image-20220519223050797"></p>
+<p><img src="http://cdn.ayusummer233.top/img/202205192231338.png" alt="image-20220519223145066"></p>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">通识</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/%E9%80%9A%E8%AF%86.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/%E9%80%9A%E8%AF%86.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#%E9%80%9A%E8%AF%86">通识</a>
+<ul>
+<li><a href="#%E8%BD%AF%E4%BB%B6">软件</a>
+<ul>
+<li><a href="#localsend">LocalSend</a></li>
+</ul>
+</li>
+<li><a href="#programming">Programming</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%B0%BE%E5%BA%8F%E5%88%97">行尾序列</a></li>
+</ul>
+</li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">配置文件</a>
+<ul>
+<li><a href="#toml">toml</a></li>
+<li><a href="#yaml">YAML</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9B%B8%E5%85%B3">开发环境相关</a>
+<ul>
+<li><a href="#visual-studio">Visual Studio</a>
+<ul>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%B8%E5%85%B3">快捷键相关</a>
+<ul>
+<li><a href="#ctrlshiftp-%E4%B8%8D%E5%8F%AF%E7%94%A8">Ctrl+Shift+P 不可用</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%96%E7%A0%81%E7%9B%B8%E5%85%B3">编码相关</a></li>
+</ul>
+</li>
+<li><a href="#vscode">VSCode</a>
+<ul>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%B8%E5%85%B3-1">快捷键相关</a></li>
+<li><a href="#%E5%91%BD%E4%BB%A4%E8%A1%8C">命令行</a></li>
+<li><a href="#%E6%89%A9%E5%B1%95%E7%9B%B8%E5%85%B3">扩展相关</a>
+<ul>
+<li><a href="#plantuml------%E6%B5%81%E7%A8%8B%E5%9B%BE%E7%BB%98%E5%88%B6"><code>PlantUML</code> ---- 流程图绘制</a></li>
+<li><a href="#markdown-preview-enhanced"><code>Markdown Preview Enhanced</code></a></li>
+<li><a href="#clang-format">clang-format</a></li>
+<li><a href="#jupyter">Jupyter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%AE%9D%E5%A1%94">宝塔</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">常用命令</a></li>
+</ul>
+</li>
+<li><a href="#%E8%99%9A%E6%8B%9F%E6%9C%BA">虚拟机</a>
+<ul>
+<li><a href="#nat-%E5%92%8C%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB">NAT 和桥接模式的区别</a></li>
+<li><a href="#vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E8%AF%86%E5%88%AB%E4%B8%8D%E5%88%B0%E7%BD%91%E5%8D%A1">VMWare 虚拟机有时候会识别不到网卡</a></li>
+<li><a href="#num-lock-%E4%B8%8D%E4%B8%80%E8%87%B4">NUM Lock 不一致</a></li>
+<li><a href="#ubuntu%E5%90%AF%E5%8A%A8%E9%BB%91%E5%B1%8F">Ubuntu启动黑屏</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#esxi">ESXI</a>
+<ul>
+<li><a href="#%E5%AF%BC%E5%87%BA-ovf">导出 OVF</a></li>
+<li><a href="#%E6%89%A9%E5%AE%B9kali%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%A1%AC%E7%9B%98%E7%A9%BA%E9%97%B4">扩容Kali虚拟机硬盘空间</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9F%9F%E5%90%8D">域名</a></li>
+<li><a href="#%E5%A4%A7%E6%A8%A1%E5%9E%8B">大模型</a>
+<ul>
+<li><a href="#deepseek">DeepSeek</a></li>
+</ul>
+</li>
+<li><a href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95">浏览器扩展</a>
+<ul>
+<li><a href="#json-formatter">JSON Formatter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#%E9%80%9A%E8%AF%86">通识</a>
+<ul>
+<li><a href="#%E8%BD%AF%E4%BB%B6">软件</a>
+<ul>
+<li><a href="#localsend">LocalSend</a></li>
+</ul>
+</li>
+<li><a href="#programming">Programming</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%B0%BE%E5%BA%8F%E5%88%97">行尾序列</a></li>
+</ul>
+</li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">配置文件</a>
+<ul>
+<li><a href="#toml">toml</a></li>
+<li><a href="#yaml">YAML</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9B%B8%E5%85%B3">开发环境相关</a>
+<ul>
+<li><a href="#visual-studio">Visual Studio</a>
+<ul>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%B8%E5%85%B3">快捷键相关</a>
+<ul>
+<li><a href="#ctrlshiftp-%E4%B8%8D%E5%8F%AF%E7%94%A8">Ctrl+Shift+P 不可用</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%96%E7%A0%81%E7%9B%B8%E5%85%B3">编码相关</a></li>
+</ul>
+</li>
+<li><a href="#vscode">VSCode</a>
+<ul>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%B8%E5%85%B3-1">快捷键相关</a></li>
+<li><a href="#%E5%91%BD%E4%BB%A4%E8%A1%8C">命令行</a></li>
+<li><a href="#%E6%89%A9%E5%B1%95%E7%9B%B8%E5%85%B3">扩展相关</a>
+<ul>
+<li>[<code>PlantUML</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">安装</title>
+    <id>https://233official.github.io/VuePressTemplate/NoteTools/LaTex/</id>
+    <link href="https://233official.github.io/VuePressTemplate/NoteTools/LaTex/"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>VSCode 下使用 LaTeX</h2>
+<ul>
+<li><a href="https://www.zhihu.com/question/62943097/answer/203670095" target="_blank" rel="noopener noreferrer">如何从零开始，入门 LaTeX？ - 知乎 (zhihu.com)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/337813181" target="_blank" rel="noopener noreferrer">如何用VScode快乐书写LaTex - 知乎 (zhihu.com)</a> [PS: ctex警告] [能用, 但是编译挺慢的]</li>
+<li><a href="https://zhuanlan.zhihu.com/p/382472221" target="_blank" rel="noopener noreferrer">使用 VS Code 编译 LaTeX - 知乎 (zhihu.com)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/52347414" target="_blank" rel="noopener noreferrer">Latex基础语法 - 知乎 (zhihu.com)</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<h2>VSCode 下使用 LaTeX</h2>
+<ul>
+<li><a href="https://www.zhihu.com/question/62943097/answer/203670095" target="_blank" rel="noopener noreferrer">如何从零开始，入门 LaTeX？ - 知乎 (zhihu.com)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/337813181" target="_blank" rel="noopener noreferrer">如何用VScode快乐书写LaTex - 知乎 (zhihu.com)</a> [PS: ctex警告] [能用, 但是编译挺慢的]</li>
+<li><a href="https://zhuanlan.zhihu.com/p/382472221" target="_blank" rel="noopener noreferrer">使用 VS Code 编译 LaTeX - 知乎 (zhihu.com)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/52347414" target="_blank" rel="noopener noreferrer">Latex基础语法 - 知乎 (zhihu.com)</a></li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux服务器</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux%E6%9C%8D%E5%8A%A1%E5%99%A8">Linux服务器</a>
+<ul>
+<li><a href="#%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8">远程连接服务器</a>
+<ul>
+<li><a href="#remote-ssh">remote-SSH</a></li>
+</ul>
+</li>
+<li><a href="#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD">文件下载</a></li>
+<li><a href="#%E8%85%BE%E8%AE%AF%E4%BA%91%E8%BD%BB%E9%87%8F">腾讯云轻量</a>
+<ul>
+<li><a href="#%E5%86%85%E7%BD%91-dns">内网 DNS</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%88%B0-root-%E8%B4%A6%E6%88%B7">使用密钥登录到 root 账户</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8E%A2%E9%92%88">探针</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux%E6%9C%8D%E5%8A%A1%E5%99%A8">Linux服务器</a>
+<ul>
+<li><a href="#%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8">远程连接服务器</a>
+<ul>
+<li><a href="#remote-ssh">remote-SSH</a></li>
+</ul>
+</li>
+<li><a href="#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD">文件下载</a></li>
+<li><a href="#%E8%85%BE%E8%AE%AF%E4%BA%91%E8%BD%BB%E9%87%8F">腾讯云轻量</a>
+<ul>
+<li><a href="#%E5%86%85%E7%BD%91-dns">内网 DNS</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%88%B0-root-%E8%B4%A6%E6%88%B7">使用密钥登录到 root 账户</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8E%A2%E9%92%88">探针</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux 软件管理</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Linux%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Linux%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86">Linux 软件管理</a>
+<ul>
+<li><a href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85">命令行安装</a></li>
+<li><a href="#%E6%9F%A5%E7%9C%8B%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE">查看软件安装位置</a></li>
+<li><a href="#%E8%BD%AF%E4%BB%B6%E5%8C%85">软件包</a></li>
+<li><a href="#firefox">Firefox</a></li>
+<li><a href="#%E5%BE%AE%E4%BF%A1">微信</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86">Linux 软件管理</a>
+<ul>
+<li><a href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85">命令行安装</a></li>
+<li><a href="#%E6%9F%A5%E7%9C%8B%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE">查看软件安装位置</a></li>
+<li><a href="#%E8%BD%AF%E4%BB%B6%E5%8C%85">软件包</a></li>
+<li><a href="#firefox">Firefox</a></li>
+<li><a href="#%E5%BE%AE%E4%BF%A1">微信</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux SSH</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/SSH.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/SSH.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux-ssh">Linux SSH</a>
+<ul>
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#vscode-remote-ssh">VSCode: Remote-SSH</a></li>
+<li><a href="#mobaxterm">MobaXterm</a></li>
+<li><a href="#windterm">WindTerm</a></li>
+<li><a href="#terminus">Terminus</a></li>
+<li><a href="#%E8%BF%9C%E7%A8%8B%E5%9B%BE%E5%BD%A2%E5%8C%96%E7%95%8C%E9%9D%A2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%98%BE%E7%A4%BA">远程图形化界面的本地显示</a>
+<ul>
+<li><a href="#%E4%B8%80%E4%BA%9B%E8%BD%AF%E4%BB%B6%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8%E7%9A%84%E5%91%BD%E4%BB%A4">一些软件命令行启动的命令</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BD%BF%E7%94%A8-ssh-%E5%81%9A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E8%AE%A9%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8%E6%9C%AC%E5%9C%B0%E7%9A%84-clash-%E4%BB%A3%E7%90%86">使用 SSH 做端口转发让服务器用本地的 clash 代理</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux-ssh">Linux SSH</a>
+<ul>
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#vscode-remote-ssh">VSCode: Remote-SSH</a></li>
+<li><a href="#mobaxterm">MobaXterm</a></li>
+<li><a href="#windterm">WindTerm</a></li>
+<li><a href="#terminus">Terminus</a></li>
+<li><a href="#%E8%BF%9C%E7%A8%8B%E5%9B%BE%E5%BD%A2%E5%8C%96%E7%95%8C%E9%9D%A2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%98%BE%E7%A4%BA">远程图形化界面的本地显示</a>
+<ul>
+<li><a href="#%E4%B8%80%E4%BA%9B%E8%BD%AF%E4%BB%B6%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8%E7%9A%84%E5%91%BD%E4%BB%A4">一些软件命令行启动的命令</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BD%BF%E7%94%A8-ssh-%E5%81%9A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E8%AE%A9%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8%E6%9C%AC%E5%9C%B0%E7%9A%84-clash-%E4%BB%A3%E7%90%86">使用 SSH 做端口转发让服务器用本地的 clash 代理</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux Shell</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Shell.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/Shell.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux-shell">Linux Shell</a>
+<ul>
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF">获取系统信息</a></li>
+<li><a href="#%E7%B1%BB%E6%B8%85%E5%B1%8F">类清屏</a></li>
+</ul>
+</li>
+<li><a href="#%E6%B8%85%E5%B1%8F">清屏</a></li>
+<li><a href="#%E6%8C%87%E9%92%88%E7%A7%BB%E5%88%B0%E8%A1%8C%E5%B0%BE">指针移到行尾</a>
+<ul>
+<li><a href="#%E4%BF%AE%E6%94%B9%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4">修改时区和时间</a></li>
+<li><a href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86">用户管理</a></li>
+<li><a href="#echo">echo</a></li>
+<li><a href="#%E9%98%B2%E7%81%AB%E5%A2%99%E7%9B%B8%E5%85%B3">防火墙相关</a></li>
+<li><a href="#cron-%E8%A1%A8%E8%BE%BE%E5%BC%8F">Cron 表达式</a>
+<ul>
+<li><a href="#%E5%90%84%E5%AD%97%E6%AE%B5%E5%90%AB%E4%B9%89">各字段含义</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8-cron-%E8%A1%A8%E8%BE%BE%E5%BC%8F">常用 Cron 表达式</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux-shell">Linux Shell</a>
+<ul>
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF">获取系统信息</a></li>
+<li><a href="#%E7%B1%BB%E6%B8%85%E5%B1%8F">类清屏</a></li>
+</ul>
+</li>
+<li><a href="#%E6%B8%85%E5%B1%8F">清屏</a></li>
+<li><a href="#%E6%8C%87%E9%92%88%E7%A7%BB%E5%88%B0%E8%A1%8C%E5%B0%BE">指针移到行尾</a>
+<ul>
+<li><a href="#%E4%BF%AE%E6%94%B9%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4">修改时区和时间</a></li>
+<li><a href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86">用户管理</a></li>
+<li><a href="#echo">echo</a></li>
+<li><a href="#%E9%98%B2%E7%81%AB%E5%A2%99%E7%9B%B8%E5%85%B3">防火墙相关</a></li>
+<li><a href="#cron-%E8%A1%A8%E8%BE%BE%E5%BC%8F">Cron 表达式</a>
+<ul>
+<li><a href="#%E5%90%84%E5%AD%97%E6%AE%B5%E5%90%AB%E4%B9%89">各字段含义</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8-cron-%E8%A1%A8%E8%BE%BE%E5%BC%8F">常用 Cron 表达式</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux">Linux</a>
+<ul>
+<li><a href="#ubuntu-%E7%9A%84-sourcelist-%E6%96%87%E4%BB%B6">Ubuntu 的 source.list 文件</a>
+<ul>
+<li><a href="#%E6%8D%A2%E6%BA%90">换源</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A0%B9%E7%9B%AE%E5%BD%95%E5%90%84%E7%9B%AE%E5%BD%95%E5%90%AB%E4%B9%89">根目录各目录含义</a></li>
+<li><a href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C">文件操作</a>
+<ul>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4">计算文件占用空间</a></li>
+<li><a href="#%E6%9F%A5%E6%89%BE%E6%96%87%E4%BB%B6">查找文件</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E6%95%B0%E9%87%8F">计算目录下的文件数量</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8E%8B%E7%BC%A9%E4%B8%8E%E8%A7%A3%E5%8E%8B">压缩与解压</a>
+<ul>
+<li><a href="#zip">zip</a></li>
+<li><a href="#gz">gz</a></li>
+<li><a href="#targz">tar.gz</a></li>
+<li><a href="#7z">7z</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BD%BF%E7%94%A8-root-%E7%99%BB%E5%85%A5-ui">使用 root 登入 UI</a></li>
+<li><a href="#%E8%BD%AF%E7%A1%AC%E9%93%BE%E6%8E%A5">软硬链接</a></li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a>
+<ul>
+<li><a href="#the-root-filesystem-require-a-manual-fsck">the root filesystem require a manual fsck</a></li>
+<li><a href="#e-dpkg-was-interrupted-you-must-manually-run-dpkg---configure--a-to-correct-the-problem">E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.</a></li>
+<li><a href="#e-sub-process-usrbindpkg-returned-an-error-code-1">E: Sub-process /usr/bin/dpkg returned an error code (1)</a></li>
+</ul>
+</li>
+<li><a href="#game">game</a>
+<ul>
+<li><a href="#%E6%89%8B%E6%B8%B8%E7%9B%B8%E5%85%B3">手游相关</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux">Linux</a>
+<ul>
+<li><a href="#ubuntu-%E7%9A%84-sourcelist-%E6%96%87%E4%BB%B6">Ubuntu 的 source.list 文件</a>
+<ul>
+<li><a href="#%E6%8D%A2%E6%BA%90">换源</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A0%B9%E7%9B%AE%E5%BD%95%E5%90%84%E7%9B%AE%E5%BD%95%E5%90%AB%E4%B9%89">根目录各目录含义</a></li>
+<li><a href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C">文件操作</a>
+<ul>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4">计算文件占用空间</a></li>
+<li><a href="#%E6%9F%A5%E6%89%BE%E6%96%87%E4%BB%B6">查找文件</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E6%95%B0%E9%87%8F">计算目录下的文件数量</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8E%8B%E7%BC%A9%E4%B8%8E%E8%A7%A3%E5%8E%8B">压缩与解压</a>
+<ul>
+<li><a href="#zip">zip</a></li>
+<li><a href="#gz">gz</a></li>
+<li><a href="#targz">tar.gz</a></li>
+<li><a href="#7z">7z</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BD%BF%E7%94%A8-root-%E7%99%BB%E5%85%A5-ui">使用 root 登入 UI</a></li>
+<li><a href="#%E8%BD%AF%E7%A1%AC%E9%93%BE%E6%8E%A5">软硬链接</a></li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a>
+<ul>
+<li><a href="#the-root-filesystem-require-a-manual-fsck">the root filesystem require a manual fsck</a></li>
+<li>[E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.](#e-dpkg-was-interrupted-you-must-manually-run-dpkg</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux 会话管理工具</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7">Linux 会话管理工具</a>
+<ul>
+<li><a href="#zellij">Zellij</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8">使用</a></li>
+</ul>
+</li>
+<li><a href="#screen-%E5%91%BD%E4%BB%A4">Screen 命令</a>
+<ul>
+<li><a href="#%E8%AF%AD%E6%B3%95">语法</a></li>
+</ul>
+</li>
+<li><a href="#tmux">tmux</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95">基本用法</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%B5%81%E7%A8%8B">常用流程</a></li>
+<li><a href="#%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86">会话管理</a>
+<ul>
+<li><a href="#%E6%96%B0%E5%BB%BA%E4%BC%9A%E8%AF%9D">新建会话</a></li>
+<li><a href="#%E5%88%86%E7%A6%BB%E4%BC%9A%E8%AF%9D">分离会话</a></li>
+<li><a href="#%E6%8E%A5%E5%85%A5%E4%BC%9A%E8%AF%9D">接入会话</a></li>
+<li><a href="#kill%E4%BC%9A%E8%AF%9D">kill会话</a></li>
+<li><a href="#%E5%88%87%E6%8D%A2%E4%BC%9A%E8%AF%9D">切换会话</a></li>
+<li><a href="#%E9%87%8D%E5%91%BD%E5%90%8D%E4%BC%9A%E8%AF%9D">重命名会话</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7">Linux 会话管理工具</a>
+<ul>
+<li><a href="#zellij">Zellij</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8">使用</a></li>
+</ul>
+</li>
+<li><a href="#screen-%E5%91%BD%E4%BB%A4">Screen 命令</a>
+<ul>
+<li><a href="#%E8%AF%AD%E6%B3%95">语法</a></li>
+</ul>
+</li>
+<li><a href="#tmux">tmux</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95">基本用法</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%B5%81%E7%A8%8B">常用流程</a></li>
+<li><a href="#%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86">会话管理</a>
+<ul>
+<li><a href="#%E6%96%B0%E5%BB%BA%E4%BC%9A%E8%AF%9D">新建会话</a></li>
+<li><a href="#%E5%88%86%E7%A6%BB%E4%BC%9A%E8%AF%9D">分离会话</a></li>
+<li><a href="#%E6%8E%A5%E5%85%A5%E4%BC%9A%E8%AF%9D">接入会话</a></li>
+<li><a href="#kill%E4%BC%9A%E8%AF%9D">kill会话</a></li>
+<li><a href="#%E5%88%87%E6%8D%A2%E4%BC%9A%E8%AF%9D">切换会话</a></li>
+<li><a href="#%E9%87%8D%E5%91%BD%E5%90%8D%E4%BC%9A%E8%AF%9D">重命名会话</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux 网络配置</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE">Linux 网络配置</a>
+<ul>
+<li><a href="#%E8%B7%AF%E7%94%B1%E6%93%8D%E4%BD%9C">路由操作</a>
+<ul>
+<li><a href="#ip-route">ip route</a></li>
+<li><a href="#routedeprecated">route(deprecated)</a></li>
+</ul>
+</li>
+<li><a href="#networkmanager">NetworkManager</a>
+<ul>
+<li><a href="#%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1">默认路由</a></li>
+</ul>
+</li>
+<li><a href="#%E5%90%AF%E7%94%A8%E4%B8%8E%E7%A6%81%E7%94%A8%E7%BD%91%E5%8D%A1">启用与禁用网卡</a></li>
+<li><a href="#ip-%E8%BD%AC%E6%8D%A2">IP 转换</a></li>
+<li><a href="#%E9%98%B2%E7%81%AB%E5%A2%99">防火墙</a>
+<ul>
+<li><a href="#iptables">iptables</a>
+<ul>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E8%A7%84%E5%88%99">添加规则</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BB%A3%E7%90%86">代理</a></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#linux-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE">Linux 网络配置</a>
+<ul>
+<li><a href="#%E8%B7%AF%E7%94%B1%E6%93%8D%E4%BD%9C">路由操作</a>
+<ul>
+<li><a href="#ip-route">ip route</a></li>
+<li><a href="#routedeprecated">route(deprecated)</a></li>
+</ul>
+</li>
+<li><a href="#networkmanager">NetworkManager</a>
+<ul>
+<li><a href="#%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1">默认路由</a></li>
+</ul>
+</li>
+<li><a href="#%E5%90%AF%E7%94%A8%E4%B8%8E%E7%A6%81%E7%94%A8%E7%BD%91%E5%8D%A1">启用与禁用网卡</a></li>
+<li><a href="#ip-%E8%BD%AC%E6%8D%A2">IP 转换</a></li>
+<li><a href="#%E9%98%B2%E7%81%AB%E5%A2%99">防火墙</a>
+<ul>
+<li><a href="#iptables">iptables</a>
+<ul>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E8%A7%84%E5%88%99">添加规则</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BB%A3%E7%90%86">代理</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">WSL2</title>
+    <id>https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/WSL/WSL2.html</id>
+    <link href="https://233official.github.io/VuePressTemplate/%E9%80%9A%E8%AF%86/Linux/WSL/WSL2.html"/>
+    <updated>2025-01-03T05:45:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<ul>
+<li><a href="#wsl2">WSL2</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E5%8D%B8%E8%BD%BD">卸载</a></li>
+<li><a href="#vscode-ssh-remote">VSCode-ssh-remote</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84">端口映射</a></li>
+<li><a href="#wsl2-dns-%E6%9C%8D%E5%8A%A1%E5%BC%82%E5%B8%B8">WSL2 DNS 服务异常</a></li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#ssh-%E6%8B%92%E7%BB%9D">ssh 拒绝</a></li>
+<li><a href="#ping-%E7%9A%84%E9%80%9A-ip--ping-%E4%B8%8D%E9%80%9A%E5%9F%9F%E5%90%8D">ping 的通 ip , ping 不通域名</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#wsl2">WSL2</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E5%8D%B8%E8%BD%BD">卸载</a></li>
+<li><a href="#vscode-ssh-remote">VSCode-ssh-remote</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84">端口映射</a></li>
+<li><a href="#wsl2-dns-%E6%9C%8D%E5%8A%A1%E5%BC%82%E5%B8%B8">WSL2 DNS 服务异常</a></li>
+<li><a href="#%E6%8A%A5%E9%94%99%E6%94%B6%E9%9B%86">报错收集</a>
+<ul>
+<li><a href="#ssh-%E6%8B%92%E7%BB%9D">ssh 拒绝</a></li>
+<li><a href="#ping-%E7%9A%84%E9%80%9A-ip--ping-%E4%B8%8D%E9%80%9A%E5%9F%9F%E5%90%8D">ping 的通 ip , ping 不通域名</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <published>2025-01-03T05:45:04.000Z</published>
+  </entry>
+</feed>
