@@ -64,6 +64,16 @@ footer: 拾掇拾掇过往经验
 
 ![image-20250103135640107](http://cdn.ayusummer233.top/DailyNotes/202501031356179.png)
 
+> 此时你的站点有可能显示如下, 表现为样式无法加载:
+>
+> ![image-20250703104536555](http://cdn.ayusummer233.top/DailyNotes/202507031045026.png)
+>
+> 此时需要将此处修改为与你当前的仓库名一致:
+>
+> ![image-20250703104703737](http://cdn.ayusummer233.top/DailyNotes/202507031047806.png)
+>
+> 修改后 push 到仓库, Actions 运行完成后再次访问网页应该就正常了
+
 ---
 
 接下来需要将仓库 Clone 到本地然后修改一些配置项：
